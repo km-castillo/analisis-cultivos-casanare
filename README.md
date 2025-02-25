@@ -1,4 +1,4 @@
-***Análisis Predictivo del Rendimiento Agrícola en el Departamento de Casanare***
+***Análisis del Rendimiento Agrícola en el Departamento de Casanare***
 
 **Descripción del Proyecto**
 
@@ -70,17 +70,37 @@ Este proyecto tiene como objetivo analizar datos históricos de producción agr�
 
 **Instalación y Uso**
 
-1. Clonar este repositorio:
+- *Instalar dependencias:*
 
-git clone https://github.com/usuario/proyecto-agricultura.git
+Antes de ejecutar el análisis, asegúrate de tener instaladas las siguientes librerías en tu entorno de trabajo:
 
-2. Instalar dependencias:
+pip install pandas numpy matplotlib seaborn
 
-pip install -r requirements.txt
+Si usas Google Colab, también puedes instalarlas dentro del notebook ejecutando:
 
-3. Ejecutar el análisis en Jupyter Notebook:
+!pip install pandas numpy matplotlib seaborn
 
-jupyter notebook
+- *Link del Notebook:*
+
+Este proyecto fue realizado en Google Colab, el siguiente link te enviara hacia el código realizado para el análisis: https://colab.research.google.com/drive/1ZX5suC_aL7DYTM5dpdOwQSG0U89vdK8o?usp=sharing
+
+- *Subir los datos*
+
+Los datos utilizados en este análisis provienen de Datos Abiertos Colombia. Puedes descargar el archivo directamente desde este enlace: https://www.datos.gov.co/Agricultura-y-Desarrollo-Rural/Explotaci-n-Agr-cola-del-Departamento-de-Casanare/7475-g9fq/about_data
+
+Una vez descargado, sube el archivo de datos en formato CSV a Google Colab para ejecutarlo.
+
+**Autores**
+
+Este proyecto fue desarrollado como proyecto final del Bootcamp de Análisis de Datos, ofrecido por Talento Tech, TIC e IU Training.
+
+Los autores del proyecto son:
+
+- Kimberly Castillo
+- Brayan Toro
+- Nicolás Ospina
+
+Estudiantes de Ingeniería Física en la Universidad Tecnológica de Pereira (UTP).
 
 **Contribuciones**
 
